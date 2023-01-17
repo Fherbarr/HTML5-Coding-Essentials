@@ -1,1 +1,40 @@
+html body {
+ 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+}
+.container{
+ 
+}
+header{
+    background-color: darkcyan;
+    height: 5vw;
+}
+header h1{
+    color: rgb(144, 145, 146);
+    padding: 20px;
+    text-align: center;
+}
 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    height: 75px;
+    background-color: aquamarine;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav>ul>li{
+    float: left;
+    color: blue;
+    margin-right: 10px;
+    padding: 22px;
+    background-color: cadetblue;
+}
+
+nav>ul>li:hover{
+    color: rgb(251, 251, 253);
+    background-color: rgb(12, 92, 92);
+}
